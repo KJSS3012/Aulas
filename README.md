@@ -2,6 +2,8 @@
 
 ![Status](http://img.shields.io/static/v1?label=Status&message=Desenvolvimento&color=GREEN&style=for-the-badge)
 
+Utilize os links na aba **"Índice"** para acessar as questões e seus respectivos links para: Youtube e Github
+
 ## Índice
 
 - [[27/07/2022] Calculadora](#Classe_Calculadora)
