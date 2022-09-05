@@ -16,7 +16,7 @@ public class Secretaria {
         System.out.println("\nQuantos alunos deseja cadastrar?");
         int resposta = in.nextInt();
         Aluno[] alunos = new Aluno[resposta];
-        for (int i = 0; i < resposta; i++) {
+        for (int i = 0; i < alunos.length; i++) {
             System.out.println("\nDigite o nome do Aluno " + i + 1);
             alunos[i].setNome(in.nextLine());
             System.out.println("\nDigite o cpf do Aluno " + i + 1);
