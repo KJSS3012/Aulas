@@ -1,0 +1,8 @@
+1- Considerando os conceitos de Orientação a Objetos já visto, veja o seguinte cenário:
+
+"O Prof. Pedro do IFRN está precisando de ajuda para decidir quem deverá passar na disciplina, ele precisa de um pequeno sistema para isso, ele já identificou algumas entidades entre elas uma **classe Aluno** com os seguintes atributos: nome(String), matricula(String), cpf(String); Uma **classe disciplina**: nome(String); Uma **classe professor**:nome(String), matricula(String), cpf(String); Uma **classe Turma**: professor(Professor), alunos(Lista de alunos);”
+
+Problemática: Contudo ele não consegue pensar em uma classe que permita lançar as notas dos alunos e suas faltas, veja que nessa classe precisamos saber quem são os alunos, quem é o professor, seja possível dizer os dias que o aluno faltou, as notas de suas atividades (duas atividades) e provas (duas provas) com seus respectivos pesos (peso 2 cada atividade e 3 para cada prova) e calcular se ele foi reprovado. Desta forma você deverá analisar e implementar a solução para ajudar o referido, da seguinte forma:
+
+ - Baseado na sua classe faça o método verificar falta de aluno, para dizer se o aluno foi reprovado por falta, isso ocorre se o aluno tiver mais de 25% de faltas.
+- Baseado na sua classe faça o método para verificar se o aluno pode ir para final. O estudante que não for reprovado por falta e obtiver média igual ou superior a 20 (vinte) e inferior a 60 (sessenta) terá direito a  uma avaliação final em cada disciplina.
